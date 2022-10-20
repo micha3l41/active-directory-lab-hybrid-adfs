@@ -25,7 +25,7 @@ Param(
 $ConfigurationData = @{
     AllNodes = @(
         @{
-            NodeName = '2012r2-dc'
+            NodeName = '2019-dc'
             PSDscAllowPlainTextPassword = $true
         }
     )
