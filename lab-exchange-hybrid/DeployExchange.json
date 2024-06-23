@@ -4,7 +4,7 @@
   "parameters": {
     "assetLocation": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/micha3l41/active-directory-lab-hybrid-adfs/master/ab-exchange-hybrid/",
+      "defaultValue": "https://raw.githubusercontent.com/micha3l41/active-directory-lab-hybrid-adfs/master/lab-exchange-hybrid/",
       "metadata": { "description": "This is the location in which all the linked templates are stored." }
     },
     "adminUsername": {
