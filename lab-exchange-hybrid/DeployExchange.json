@@ -113,6 +113,7 @@
   "variables": {
     "adfsDeployCount": "[int(parameters('AdfsFarmCount'))]",
     "networkInterfaceName": "NIC",
+    "networkInterfaceName2": "NIC2",
     "addcVMNameSuffix": "dc",
     "ad2dcVMNameSuffix": "dc2",
     "adfsVMNameSuffix": "fs",
@@ -264,7 +265,7 @@
           "adVMName": { "value": "[variables('ad2VMName')]" },
           "assetlocation": { "value": "[parameters('assetLocation')]" },
           "location": { "value": "[variables('location')]" },
-          "networkInterfaceName": { "value": "[variables('NetworkInterfaceName')]" },
+          "networkInterfaceName": { "value": "[variables('NetworkInterfaceName2')]" },
           "virtualNetworkName": { "value": "[variables('virtualNetworkName')]" },
           "vmSize": { "value": "[parameters('vmSize')]" },
           "deploymentNumber": { "value": "[parameters('deploymentNumber')]" }
